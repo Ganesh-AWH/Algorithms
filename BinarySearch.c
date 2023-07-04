@@ -34,7 +34,11 @@ int main(){
     printf("enter the target: ");
     scanf("%d",&target);
     qsort(arr,size,sizeof(int),cmpfunc);
-
+    printf("elements after sorting\n");
+    for(i=0;i<size;i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
     int pos = binarySearch(target,arr,0,size-1);
     if(pos==-1){
         printf("element not found.....");
