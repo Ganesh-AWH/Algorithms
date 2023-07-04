@@ -19,6 +19,6 @@ public class Duplicate_2 {
     //Main Method
     public static void main(String[] args) {
         int nums[] = {1,0,1,1};
-        System.out.println(containsNearbyDuplicate(nums,1));
+        containsNearbyDuplicate(nums,1);
     }
 }
